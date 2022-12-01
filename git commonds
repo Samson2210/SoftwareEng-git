@@ -1,3 +1,8 @@
+git config --global user.name "name" - to add the username
+git config --global user.gmail "gmial" - to add the mail 
+git config --global user.name  - to display the username
+git config --global user.gmail  - to display the mail 
+git config -global -edit - to make changes to the config file
 git init - commond to initialise the git folder
 git status - tells the changes done iin the dir
 git add <file name> - add the files to staging area
@@ -5,9 +10,11 @@ git stage - to check which files are to be commited in the next commit
 git commit -m "message" - to commit the change
 git log - to see the all the commits
 git remote add origin url - to add a remote repo
+git remote set-url origin <new repo url> - to change the current remote repo
 git remote -v - to see the remote orgin url
 git brach - to see the current brach
 git brach <brach name> - to create a new brach
 git checkout brachname - to switch to that brach
 git checkout -b <brach name> - to crate a brach and switch to that branch
 git merge <branch name> - to merege the the current brach with mentioned brach
+git push orgin master - to push the changes to the origin(remote repo) to master branch
